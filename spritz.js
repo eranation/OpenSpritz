@@ -4,14 +4,14 @@
 // https://github.com/Miserlou/OpenSpritz
 
 // Please don't abuse this.
-var readability_token = '172b057cd7cfccf27b60a36f16b1acde12783893';
+var readability_token = '284b866dc1327d8251f8b372fd1cc9aa8ee2a502';
 
 // Create the view from the remote resource.
 function create_spritz(){
 
      spritz_loader = function() {
 
-        $.get("https://rawgithub.com/Miserlou/OpenSpritz/master/spritz.html", function(data){
+        $.get("https://rawgithub.com/eranation/OpenSpritz/master/spritz.html", function(data){
 
             if (!($("#spritz_container").length) ) {
                 $("body").prepend(data);
